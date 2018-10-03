@@ -1,0 +1,7 @@
+{
+  "name": "AgoraludeJeux",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
