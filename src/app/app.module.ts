@@ -10,7 +10,6 @@ import { PuzzlePage } from '../pages/puzzle/puzzle';
 import { QuizzPage } from '../pages/quizz/quizz';
 import { CardPage } from '../pages/card/card';
 import { RelaxPage } from '../pages/relax/relax';
-import { ShifumiPage } from '../pages/shifumi/shifumi';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import { ShifumiPage } from '../pages/shifumi/shifumi';
     PuzzlePage,
     QuizzPage,
     CardPage,
-    RelaxPage,
-    ShifumiPage
+    RelaxPage
   ],
   imports: [
     BrowserModule,
@@ -33,8 +31,7 @@ import { ShifumiPage } from '../pages/shifumi/shifumi';
     PuzzlePage,
     QuizzPage,
     CardPage,
-    RelaxPage,
-    ShifumiPage
+    RelaxPage
   ],
   providers: [
     StatusBar,

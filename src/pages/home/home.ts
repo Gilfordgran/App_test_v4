@@ -4,7 +4,6 @@ import { PuzzlePage } from '../puzzle/puzzle';
 import { QuizzPage } from '../quizz/quizz';
 import { CardPage } from '../card/card';
 import { RelaxPage } from '../relax/relax';
-import { ShifumiPage } from '../shifumi/shifumi';
 
 @Component({
   selector: 'page-home',
@@ -29,10 +28,6 @@ export class HomePage {
 
     goRelax(){
       this.navCtrl.push(RelaxPage);
-    }
-
-    goShifumi(){
-      this.navCtrl.push(ShifumiPage);
     }
 
 }
