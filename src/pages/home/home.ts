@@ -5,6 +5,8 @@ import { QuizzPage } from '../quizz/quizz';
 import { CardPage } from '../card/card';
 import { RelaxPage } from '../relax/relax';
 
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -12,8 +14,12 @@ import { RelaxPage } from '../relax/relax';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
+    
     }
 
+  
+
+    // function de navigation vers page
     goPuzzle(){
       this.navCtrl.push(PuzzlePage);
     }
@@ -29,5 +35,7 @@ export class HomePage {
     goRelax(){
       this.navCtrl.push(RelaxPage);
     }
+
+    // game phaser
 
 }
